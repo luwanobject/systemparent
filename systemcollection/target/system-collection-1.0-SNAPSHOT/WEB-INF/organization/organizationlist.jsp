@@ -216,7 +216,6 @@
                 text:'增加',
                 iconCls:'icon-add',
                 handler:function () {
-                    console.log(onClickRow);
 
                         $('#addwin').window({
                             width:600,
@@ -346,10 +345,6 @@
                 if(inserted.length>0){
                     url='insertorganization.do';
                 }
-                jsonData={
-                    path:row.path,
-                    id:row.id
-                }
 
                 if(updated.length>0){
                     url='updateorganization.do';
@@ -357,7 +352,7 @@
                 $.ajax({
                     type: "POST",
                     url: url,
-                    data: jsonData,
+                    data: row,
                     dataType:'json',
                     success: function(data){
                        if(data.success){

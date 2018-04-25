@@ -57,6 +57,7 @@
         </div>
     </div>
 </div>
+<div data-options="region:'south',border:false" style="height:50px;background:#A9FACD;padding:10px;">south region</div>
 <div id="pp"  data-options="region:'center',title:'欢迎'" style="overflow: hidden">
 
 </div>

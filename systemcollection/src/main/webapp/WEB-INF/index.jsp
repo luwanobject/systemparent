@@ -19,6 +19,16 @@
           $('#pp').panel('open').panel('refresh',url);
 
        }
+       function goto_sysPosition(url){
+           console.info(url);
+           $('#pp').panel('open').panel('refresh',url);
+
+       }
+       function goto_employeeInfo(url){
+           console.info(url);
+           $('#pp').panel('open').panel('refresh',url);
+
+       }
     </script>
 </head>
 <body  class="easyui-layout">
@@ -30,8 +40,8 @@
         <div title="About" data-options="iconCls:'icon-ok'">
             <ul>
                 <li><a href="javascript:addorganizationg('organization.do','组织机构')">组织机构</a></li>
-                <li><a href="javascript:add_tap2()">员工管理</a></li>
-                <li><a href="javascript:add_tap2('goto_sku.do','商品库存单元管理')">职位管理</a></li>
+                <li><a href="javascript:goto_sysPosition('goto_sysPosition.do','职位管理')">职位管理</a></li>
+                <li><a href="javascript:goto_employeeInfo('goto_employeeInfo.do')">员工管理</a></li>
                 <li><a href="javascript:add_tap2('goto_sku.do','商品库存单元管理')">委托方管理</a></li>
                 <li><a href="javascript:add_tap2('goto_sku.do','商品库存单元管理')">批次管理</a></li>
                 <li><a href="javascript:add_tap2('goto_sku.do','商品库存单元管理')">案件管理</a></li>

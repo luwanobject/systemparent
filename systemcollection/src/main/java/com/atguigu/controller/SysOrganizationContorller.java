@@ -12,6 +12,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletResponse;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -37,7 +38,7 @@ public class SysOrganizationContorller {
             mp.put("organizations",datas.getIds());
             sysOrganizationService.deleteSysOrganizations(mp);
             result.setSuccess(true);
-            result.setMsg("删除陈宫成功");
+            result.setMsg("删除成功");
         }catch (Exception e){
             e.printStackTrace();
             result.setSuccess(false);
@@ -97,25 +98,17 @@ public class SysOrganizationContorller {
 
     @RequestMapping("organizationlistpage")
     @ResponseBody
-    public page<SysOrganization> organizationlistpage(Integer page, Integer rows,String name){
+    public  Map<String,Object> organizationlistpage(){
         logger.info("------------------organizationlist com in------------------------");
-        Map<Object,Object> mp=new HashMap<>();
-        if(page==null){
-            page=1;
-        }
-        if(rows==null){
-            page=5;
-        }
-        mp.put("page",(page-1)*rows);
-        mp.put("rows",rows);
-        mp.put("name",name);
+
         page<SysOrganization>  pages=new page<SysOrganization>();
-        List<SysOrganization> list = sysOrganizationService.getListSysOrganization(mp);
-        Long total = sysOrganizationService.getSysOrganizationCount(mp);
-        pages.setTotal(Math.toIntExact(total));
-        pages.setRows(list);
-        return pages;
-    }
+        List<SysOrganization> list = sysOrganizationService.getListSysOrganization();
+        logger.info(list);
+         Map<String,Object> resultmp=new HashMap();
+
+        resultmp.put("rows",list);
+        return resultmp;
+}
 
 
 }

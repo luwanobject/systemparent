@@ -30,7 +30,7 @@ public interface SysOrganizationMapper {
 
     int updateByPrimaryKey(SysOrganization record);
 
-    List<SysOrganization> selectListSysOrganization(Map<Object,Object> mp);
+    List<SysOrganization> selectListSysOrganization();
 
     int deleteSysOrganizations(Map<Object,Object> mp);
 }

@@ -30,10 +30,10 @@ public class SysOrganizationServiceimpl  implements SysOrganizationService{
     }
 
     @Override
-    public List<SysOrganization> getListSysOrganization(Map<Object,Object> map) {
+    public List<SysOrganization> getListSysOrganization() {
 
-
-        return sysOrganizationMapper.selectListSysOrganization(map);
+        SysOrganizationExample example=new SysOrganizationExample();
+        return sysOrganizationMapper.selectByExample(example);
     }
 
     @Override

@@ -75,6 +75,7 @@
                     });
                     obdatagrid.treegrid('reload');
                     obdatagrid.treegrid('unselectAll');
+                    $('#addwin').window('close');
                 }else{
                     obdatagrid.treegrid('rejectChanges');
                     $.messager.alert('错误'.data.msg,'error')

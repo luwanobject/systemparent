@@ -19,24 +19,6 @@
     <result column="principal_id" jdbcType="VARCHAR" property="principalId" />
     <result column="path" jdbcType="VARCHAR" property="path" />
   </resultMap>
-  <resultMap id="MyBaseResultMap" type="com.atguigu.bean.SysOrganization">
-    <id column="id" jdbcType="VARCHAR" property="id" />
-    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
-    <result column="modify_time" jdbcType="TIMESTAMP" property="modifyTime" />
-    <result column="version" jdbcType="INTEGER" property="version" />
-    <result column="status" jdbcType="INTEGER" property="status" />
-    <result column="name" jdbcType="VARCHAR" property="name" />
-    <result column="parent_id" jdbcType="VARCHAR" property="parentId" />
-    <result column="address" jdbcType="VARCHAR" property="address" />
-    <result column="phone" jdbcType="VARCHAR" property="phone" />
-    <result column="post_code" jdbcType="VARCHAR" property="postCode" />
-    <result column="fax" jdbcType="VARCHAR" property="fax" />
-    <result column="type" jdbcType="INTEGER" property="type" />
-    <result column="order_no" jdbcType="INTEGER" property="orderNo" />
-    <result column="code" jdbcType="VARCHAR" property="code" />
-    <result column="principal_id" jdbcType="VARCHAR" property="principalId" />
-    <result column="path" jdbcType="VARCHAR" property="path" />
-  </resultMap>
   <sql id="Example_Where_Clause">
     <where>
       <foreach collection="oredCriteria" item="criteria" separator="or">
@@ -400,14 +382,14 @@
       path = #{path,jdbcType=VARCHAR}
     where id = #{id,jdbcType=VARCHAR}
   </update>
-  <select id="selectListSysOrganization" parameterType="Map" resultMap="BaseResultMap">
+  <select id="selectListSysOrganization" parameterType="Map" resultType="com.atguigu.bean.SysOrganization">
     select
     <include refid="Base_Column_List" />
     from sys_organization
     <where>
       <if test="name != null">
-      and name like concat('%', #{name}, '%')
-    </if>
+        and name like concat('%', #{name}, '%')
+      </if>
      <!-- <if test="name != null">
         and name like concat('%', #{name}, '%')
       </if>
@@ -425,12 +407,5 @@
       #{id}
     </foreach>
   </delete>
-
-  <select id="selectListSysOrganizationAll" resultType ="com.atguigu.bean.SysOrganization">
-    select
-    <include refid="Base_Column_List" />
-    from sys_organization
-
-  </select>
 
 </mapper>

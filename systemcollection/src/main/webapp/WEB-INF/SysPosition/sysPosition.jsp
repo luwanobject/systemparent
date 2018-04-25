@@ -187,7 +187,7 @@
 
                         obdatagrid.treegrid('cancelEdit',objaddinde);
                         objaddinde=undefined;
-                        onClickRow=undefined;
+
                         obdatagrid.treegrid('rejectChanges');
                         obdatagrid.treegrid('unselectAll');
 

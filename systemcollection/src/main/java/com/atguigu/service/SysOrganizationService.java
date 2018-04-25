@@ -13,7 +13,7 @@ public interface SysOrganizationService  {
 
     List<SysOrganization> getByExample();
 
-    List<SysOrganization> getListSysOrganization(Map<Object,Object> map);
+    List<SysOrganization> getListSysOrganization();
 
     Long  getSysOrganizationCount(Map<Object,Object> mp);
 
