@@ -1,34 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="466e0970-2d8c-49d7-b8fb-b209abef728a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     <list default="true" id="466e0970-2d8c-49d7-b8fb-b209abef728a" name="Default" comment="员工前端控制器">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/systemcollection/src/main/webapp/WEB-INF/organizationlist/organizationlist.jsp" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/systemcollection/target/classes/com/atguigu/mapper/SysOrganizationMapper.class" afterPath="$PROJECT_DIR$/systemcollection/target/classes/com/atguigu/mapper/SysOrganizationMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/systemcollection/target/classes/com/atguigu/service/SysOrganizationService.class" afterPath="$PROJECT_DIR$/systemcollection/target/classes/com/atguigu/service/SysOrganizationService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/systemcollection/target/classes/com/atguigu/service/impl/SysOrganizationServiceimpl.class" afterPath="$PROJECT_DIR$/systemcollection/target/classes/com/atguigu/service/impl/SysOrganizationServiceimpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/systemcollection/target/system-collection-1.0-SNAPSHOT/WEB-INF/classes/com/atguigu/mapper/SysOrganizationMapper.class" afterPath="$PROJECT_DIR$/systemcollection/target/system-collection-1.0-SNAPSHOT/WEB-INF/classes/com/atguigu/mapper/SysOrganizationMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/systemcollection/target/system-collection-1.0-SNAPSHOT/WEB-INF/classes/com/atguigu/service/SysOrganizationService.class" afterPath="$PROJECT_DIR$/systemcollection/target/system-collection-1.0-SNAPSHOT/WEB-INF/classes/com/atguigu/service/SysOrganizationService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/systemcollection/target/system-collection-1.0-SNAPSHOT/WEB-INF/classes/com/atguigu/service/impl/SysOrganizationServiceimpl.class" afterPath="$PROJECT_DIR$/systemcollection/target/system-collection-1.0-SNAPSHOT/WEB-INF/classes/com/atguigu/service/impl/SysOrganizationServiceimpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/systemcollection/target/system-collection-1.0-SNAPSHOT/WEB-INF/lib/system-common-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/systemcollection/target/system-collection-1.0-SNAPSHOT/WEB-INF/lib/system-common-1.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/systemcollection/src/main/java/com/atguigu/controller/SysOrganizationContorller.java" afterPath="$PROJECT_DIR$/systemcollection/src/main/java/com/atguigu/controller/SysOrganizationContorller.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/systemcollection/src/main/java/com/atguigu/controller/VewContorller.java" afterPath="$PROJECT_DIR$/systemcollection/src/main/java/com/atguigu/controller/VewContorller.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/systemcollection/src/main/java/com/atguigu/mapper/SysOrganizationMapper.java" afterPath="$PROJECT_DIR$/systemcollection/src/main/java/com/atguigu/mapper/SysOrganizationMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/systemcollection/src/main/java/com/atguigu/service/SysOrganizationService.java" afterPath="$PROJECT_DIR$/systemcollection/src/main/java/com/atguigu/service/SysOrganizationService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/systemcollection/src/main/java/com/atguigu/service/impl/SysOrganizationServiceimpl.java" afterPath="$PROJECT_DIR$/systemcollection/src/main/java/com/atguigu/service/impl/SysOrganizationServiceimpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/systemcollection/src/main/webapp/WEB-INF/SysPosition/sysPosition.jsp" afterPath="$PROJECT_DIR$/systemcollection/src/main/webapp/WEB-INF/SysPosition/sysPosition.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/systemcollection/src/main/webapp/WEB-INF/index.jsp" afterPath="$PROJECT_DIR$/systemcollection/src/main/webapp/WEB-INF/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/systemcollection/src/main/webapp/WEB-INF/organization/organizationlist.jsp" afterPath="$PROJECT_DIR$/systemcollection/src/main/webapp/WEB-INF/organization/organizationlist.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/systemcollection/src/main/webapp/WEB-INF/organizationlist/addOrg.jsp" afterPath="$PROJECT_DIR$/systemcollection/src/main/webapp/WEB-INF/organizationlist/addOrg.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/systemcollection/target/classes/mapper/SysOrganizationMapper.xml" afterPath="$PROJECT_DIR$/systemcollection/target/classes/mapper/SysOrganizationMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/systemcollection/target/classes/mybatis-config.xml" afterPath="$PROJECT_DIR$/systemcollection/target/classes/mybatis-config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/systemcollection/target/system-collection-1.0-SNAPSHOT/WEB-INF/classes/mapper/SysOrganizationMapper.xml" afterPath="$PROJECT_DIR$/systemcollection/target/system-collection-1.0-SNAPSHOT/WEB-INF/classes/mapper/SysOrganizationMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/systemcollection/target/system-collection-1.0-SNAPSHOT/WEB-INF/classes/mybatis-config.xml" afterPath="$PROJECT_DIR$/systemcollection/target/system-collection-1.0-SNAPSHOT/WEB-INF/classes/mybatis-config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/systemcollection/target/system-collection-1.0-SNAPSHOT/WEB-INF/index.jsp" afterPath="$PROJECT_DIR$/systemcollection/target/system-collection-1.0-SNAPSHOT/WEB-INF/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/systemcollection/target/system-collection-1.0-SNAPSHOT/WEB-INF/organization/organizationlist.jsp" afterPath="$PROJECT_DIR$/systemcollection/target/system-collection-1.0-SNAPSHOT/WEB-INF/organization/organizationlist.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/systemcollection/target/system-collection-1.0-SNAPSHOT/WEB-INF/organizationlist/addOrg.jsp" afterPath="$PROJECT_DIR$/systemcollection/target/system-collection-1.0-SNAPSHOT/WEB-INF/organizationlist/addOrg.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -56,7 +30,7 @@
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/systemcollection/src/main/webapp/WEB-INF/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
+            <state relative-caret-position="798">
               <caret line="42" column="74" lean-forward="false" selection-start-line="42" selection-start-column="58" selection-end-line="42" selection-end-column="74" />
               <folding />
             </state>
@@ -66,8 +40,8 @@
       <file leaf-file-name="SysPositionContoller.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/systemcollection/src/main/java/com/atguigu/controller/SysPositionContoller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1696">
-              <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+            <state relative-caret-position="152">
+              <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -86,7 +60,7 @@
       <file leaf-file-name="addOrg.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/systemcollection/src/main/webapp/WEB-INF/organizationlist/addOrg.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
+            <state relative-caret-position="498">
               <caret line="77" column="31" lean-forward="false" selection-start-line="77" selection-start-column="31" selection-end-line="77" selection-end-column="31" />
               <folding />
             </state>
@@ -96,12 +70,9 @@
       <file leaf-file-name="organizationlist.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/systemcollection/src/main/webapp/WEB-INF/organization/organizationlist.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
+            <state relative-caret-position="7771">
               <caret line="409" column="31" lean-forward="false" selection-start-line="409" selection-start-column="25" selection-end-line="409" selection-end-column="31" />
-              <folding>
-                <marker date="1524640106793" expanded="true" signature="3410:3442" ph="..." />
-                <marker date="1524640106793" expanded="true" signature="3477:3527" ph="..." />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -314,8 +285,8 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -338,93 +309,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="systemcollection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="systemparent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="systemparent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="systemcollection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="systemparent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="systemparent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="systemcollection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="atguigu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="systemparent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="systemparent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="systemcollection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="atguigu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
+              <option name="myItemId" value=".idea" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -996,6 +881,7 @@
       <workItem from="1524616285955" duration="12330000" />
       <workItem from="1524634772468" duration="1612000" />
       <workItem from="1524638724069" duration="1970000" />
+      <workItem from="1524642405089" duration="73000" />
     </task>
     <task id="LOCAL-00001" summary="项目的初始化">
       <created>1524275548566</created>
@@ -1106,7 +992,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155938000" />
+    <option name="totallyTimeSpent" value="156011000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1134,7 +1020,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3794643" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.4978678" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.4978678" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2563966" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25906184" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1356,7 +1242,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="41" column="25" lean-forward="false" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1364,7 +1249,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="592">
           <caret line="672" column="12" lean-forward="true" selection-start-line="672" selection-start-column="12" selection-end-line="672" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1408,7 +1292,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1416,7 +1299,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1442,9 +1324,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
           <caret line="102" column="23" lean-forward="true" selection-start-line="102" selection-start-column="23" selection-end-line="102" selection-end-column="23" />
-          <folding>
-            <element signature="e#3597#3611#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1452,7 +1331,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1460,7 +1338,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="211">
           <caret line="17" column="33" lean-forward="false" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1468,7 +1345,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
           <caret line="31" column="34" lean-forward="true" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1476,7 +1352,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1484,7 +1359,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
           <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1492,7 +1366,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1178">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1500,7 +1373,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="74">
           <caret line="384" column="39" lean-forward="false" selection-start-line="384" selection-start-column="14" selection-end-line="384" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1508,7 +1380,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="279">
           <caret line="41" column="33" lean-forward="true" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1516,7 +1387,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1524,7 +1394,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="20" column="41" lean-forward="false" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1532,7 +1401,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="235">
           <caret line="35" column="60" lean-forward="false" selection-start-line="35" selection-start-column="60" selection-end-line="35" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1540,7 +1408,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
           <caret line="104" column="71" lean-forward="true" selection-start-line="104" selection-start-column="71" selection-end-line="104" selection-end-column="71" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1562,15 +1429,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/systemcollection/src/main/java/com/atguigu/controller/SysPositionContoller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1696">
-          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        <state relative-caret-position="152">
+          <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/systemcollection/src/main/webapp/WEB-INF/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
+        <state relative-caret-position="798">
           <caret line="42" column="74" lean-forward="false" selection-start-line="42" selection-start-column="58" selection-end-line="42" selection-end-column="74" />
           <folding />
         </state>
@@ -1584,28 +1451,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/systemcollection/src/main/webapp/WEB-INF/organizationlist/organizationlist.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-750">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/systemcollection/src/main/webapp/WEB-INF/organizationlist/organizationlist.jsp" />
     <entry file="file://$PROJECT_DIR$/systemcollection/src/main/webapp/WEB-INF/organization/organizationlist.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
+        <state relative-caret-position="7771">
           <caret line="409" column="31" lean-forward="false" selection-start-line="409" selection-start-column="25" selection-end-line="409" selection-end-column="31" />
-          <folding>
-            <marker date="1524640106793" expanded="true" signature="3410:3442" ph="..." />
-            <marker date="1524640106793" expanded="true" signature="3477:3527" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/systemcollection/src/main/webapp/WEB-INF/organizationlist/addOrg.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
+        <state relative-caret-position="498">
           <caret line="77" column="31" lean-forward="false" selection-start-line="77" selection-start-column="31" selection-end-line="77" selection-end-column="31" />
           <folding />
         </state>
