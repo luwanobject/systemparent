@@ -1,9 +1,99 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
          pageEncoding="UTF-8" %>
 <script type="text/javascript" charset="utf-8">
+    (function($){
+        function pagerFilter(data){
+            if ($.isArray(data)){    // is array
+                data = {
+                    total: data.length,
+                    rows: data
+                }
+            }
+            var dg = $(this);
+            var state = dg.data('treegrid');
+            var opts = dg.treegrid('options');
+            var pager = dg.treegrid('getPager');
+            pager.pagination({
+                onSelectPage:function(pageNum, pageSize){
+                    opts.pageNumber = pageNum;
+                    opts.pageSize = pageSize;
+                    pager.pagination('refresh',{
+                        pageNumber:pageNum,
+                        pageSize:pageSize
+                    });
+                    dg.treegrid('loadData',state.originalRows);
+                }
+            });
+            if (!state.originalRows){
+                state.originalRows = data.rows;
+            }
+            var topRows = [];
+            var childRows = [];
+            $.map(state.originalRows, function(row){
+                row._parentId ? childRows.push(row) : topRows.push(row);
+            });
+            data.total = topRows.length;
+            var start = (opts.pageNumber-1)*parseInt(opts.pageSize);
+            var end = start + parseInt(opts.pageSize);
+            data.rows = $.extend(true,[],topRows.slice(start, end).concat(childRows));
+            return data;
+        }
+
+        var appendMethod = $.fn.treegrid.methods.append;
+        var loadDataMethod = $.fn.treegrid.methods.loadData;
+        $.extend($.fn.treegrid.methods, {
+            clientPaging: function(jq){
+                return jq.each(function(){
+                    var state = $(this).data('treegrid');
+                    var opts = state.options;
+                    opts.loadFilter = pagerFilter;
+                    var onBeforeLoad = opts.onBeforeLoad;
+                    opts.onBeforeLoad = function(row,param){
+                        state.originalRows = null;
+                        onBeforeLoad.call(this, row, param);
+                    }
+                    $(this).treegrid('loadData', state.data);
+                    $(this).treegrid('reload');
+                });
+            },
+            loadData: function(jq, data){
+                jq.each(function(){
+                    $(this).data('treegrid').originalRows = null;
+                });
+                return loadDataMethod.call($.fn.treegrid.methods, jq, data);
+            },
+            append: function(jq, param){
+                return jq.each(function(){
+                    var state = $(this).data('treegrid');
+                    if (state.options.loadFilter == pagerFilter){
+                        $.map(param.data, function(row){
+                            row._parentId = row._parentId || param.parent;
+                            state.originalRows.push(row);
+                        });
+                        $(this).treegrid('loadData', state.originalRows);
+                    } else {
+                        appendMethod.call($.fn.treegrid.methods, jq, param);
+                    }
+                })
+            }
+        });
+
+    })(jQuery);
+
+    function formatProgress(value){
+        if (value){
+            var s = '<div style="width:100%;border:1px solid #ccc">' +
+                '<div style="width:' + value + '%;background:#cc0000;color:#fff">' + value + '%' + '</div>'
+            '</div>';
+            return s;
+        } else {
+            return '';
+        }
+    }
 
     $(function(){
         loadtagrid();
+        $('#tr').treegrid().treegrid('clientPaging');
     });
     var obdatagrid;
     var objaddinde=undefined;
@@ -67,13 +157,15 @@
                 text:'增加',
                 iconCls:'icon-add',
                 handler:function () {
+                    alert("11111111111111");
                     if(onClickRow==undefined){
-                        alert(111111111111)
+
                         $('#addwin').window({
-                            width:600,
+                            width:300,
                             height:400,
                             modal:true,
-                            href:'goto_addOrg.do'
+                            title:"职位详细信息",
+                            href:'goto_addPosition.do'
                         });
 
 
@@ -111,10 +203,12 @@
                                         dataType:'json',
                                         success: function(data){
                                             if(data.success){
+                                                console.log("成功");
                                                 $.messager.show({
                                                     msg:data.msg,
                                                     tile:'成功'
-                                                });
+                                                })
+                                                onClickRow=undefined;
                                                 obdatagrid.treegrid('reload');
                                                 obdatagrid.treegrid('unselectAll');
                                             }else{
@@ -128,29 +222,35 @@
                                 }
                             });
                         }else{
-                            jsonData1 = {
+                            $.messager.confirm('请确认','您确定要删除吗？',function (r) {
+                                if(r){
+                                    jsonData1 = {
 
-                            }
-                            jsonData1["ids[0]"] = onClickRow;
-                            $.ajax({
-                                type: "POST",
-                                url: "deletsysPosition.do",
-                                data: jsonData1,
-                                dataType:'json',
-                                success: function(data){
-                                    if(data.success){
-                                        $.messager.show({
-                                            msg:data.msg,
-                                            tile:'成功'
-                                        });
-                                        obdatagrid.treegrid('reload');
-                                        obdatagrid.treegrid('unselectAll');
-                                    }else{
-                                        obdatagrid.treegrid('rejectChanges');
-                                        $.messager.alert('错误'.data.msg,'error')
                                     }
+                                    jsonData1["ids[0]"] = onClickRow;
+                                    $.ajax({
+                                        type: "POST",
+                                        url: "deletsysPosition.do",
+                                        data: jsonData1,
+                                        dataType:'json',
+                                        success: function(data){
+                                            if(data.success){
+                                                $.messager.show({
+                                                    msg:data.msg,
+                                                    tile:'成功'
+                                                });
+                                                onClickRow=undefined;
+                                                obdatagrid.treegrid('reload');
+                                                obdatagrid.treegrid('unselectAll');
+                                            }else{
+                                                obdatagrid.treegrid('rejectChanges');
+                                                $.messager.alert('错误'.data.msg,'error')
+                                            }
+                                        }
+                                    });
                                 }
                             });
+
                         }
                     }
                 },'-',
@@ -219,7 +319,10 @@
                            $.messager.show({
                                msg:data.msg,
                                tile:'成功'
+
+
                            });
+                           obdatagrid.treegrid('reload');
                        }else{
                            obdatagrid.treegrid('rejectChanges');
                            $.messager.alert('错误'.data.msg,'error')
@@ -272,6 +375,7 @@
             </table>
         </div>
     </div>
+
 </div>
 
 

@@ -9,10 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpServletResponse;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * Created by luwan on 2018/4/24.
@@ -34,7 +31,7 @@ public class SysPositionContoller {
             int i = sysPositionService.deleteSysPositions(mp);
             if(i>0){
                 result.setSuccess(true);
-                result.setMsg("删除陈宫成功");
+                result.setMsg("删除成功");
             }else{
                 result.setSuccess(false);
                 result.setMsg("删除失败");
@@ -56,6 +53,7 @@ public class SysPositionContoller {
         AJAXResult result = new AJAXResult();
         logger.info("------------------sysPositionlist com in------------------------");
         logger.info(record);
+        record.setId(String.valueOf(System.currentTimeMillis()));
         try {
             sysPositionService.insertSysPosition(record);
             result.setSuccess(true);
@@ -76,6 +74,7 @@ public class SysPositionContoller {
         logger.info("------------------sysPositionlist com in------------------------");
         logger.info(record);
         try {
+            record.setModifyTime(new Date());
             sysPositionService.updateByPrimaryKeySelective(record);
             result.setSuccess(true);
             result.setMsg("修改成功");
@@ -88,6 +87,40 @@ public class SysPositionContoller {
         return result;
     }
 
+    @RequestMapping("higherlist")
+    @ResponseBody
+    public Object higherlist() {
+        List<SysPosition> list = sysPositionService.getByExample();
+
+        List<ResultSelect> resultSelects=new ArrayList<>();
+        for (SysPosition sysPosition:list){
+            ResultSelect rets=new ResultSelect();
+            if(sysPosition.getName().equals("总监")){
+                rets.setSelected(true);
+            }
+            rets.setId(sysPosition.getId());
+            rets.setText(sysPosition.getName());
+            resultSelects.add(rets);
+        }
+        return resultSelects;
+    }
+    @RequestMapping("joblist")
+    @ResponseBody
+    public Object joblist() {
+        List<SysPosition> list = sysPositionService.getByExample();
+
+        List<ResultSelect> resultSelects=new ArrayList<>();
+        for (SysPosition sysPosition:list){
+            ResultSelect rets=new ResultSelect();
+            if(sysPosition.getName().equals("主任")){
+                rets.setSelected(true);
+            }
+            rets.setId(sysPosition.getType());
+            rets.setText(sysPosition.getName());
+            resultSelects.add(rets);
+        }
+        return resultSelects;
+    }
 
     @RequestMapping("sysPositionlist")
     @ResponseBody
@@ -99,48 +132,15 @@ public class SysPositionContoller {
 
     @RequestMapping("sysPositionpage")
     @ResponseBody
-    public page<SysPosition> sysPositionpage(Integer page, Integer rows, String name) {
+    public Object sysPositionpage() {
         logger.info("------------------SysPosition com in------------------------");
-        Map<Object, Object> mp = new HashMap<>();
-        if (page == null) {
-            page = 1;
-        }
-        if (rows == null) {
-            rows = 5;
-        }
-        mp.put("page", (page - 1) * rows);
-        mp.put("rows", rows);
-        mp.put("name", name);
-        page<SysPosition> pages = new page<SysPosition>();
 
-        List<SysPosition> listids = new ArrayList<>();
         //查询出所有的数据
-        List<SysPosition> list = sysPositionService.getListSysPosition(mp);
-        //创建一个map集合
-        Map<String, SysPosition> smp = new HashMap<>();
-        //遍历组织机构的集合
-        for (SysPosition sysPosition : list) {
-            smp.put(sysPosition.getId(), sysPosition);
-        }
+        List<SysPosition> list = sysPositionService.getByExample();
+        Map<Object,Object> mp=new HashMap<>();
 
+        mp.put("rows",list);
 
-        for (SysPosition sysPosition : list) {
-            SysPosition children = sysPosition;
-            if (children.getParentId().equals("0")) {
-                listids.add(sysPosition);
-            } else {
-                SysPosition parent = smp.get(children.getParentId());
-
-                parent.getChildren().add(children);
-            }
-        }
-
-        Long total = sysPositionService.getSysPositionCount(mp);
-
-        pages.setTotal(Math.toIntExact(total));
-        pages.setRows(listids);
-
-
-        return pages;
+        return mp;
     }
 }

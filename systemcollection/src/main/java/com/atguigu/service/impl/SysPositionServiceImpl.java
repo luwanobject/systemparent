@@ -28,7 +28,8 @@ public class SysPositionServiceImpl implements SysPositionService {
 
     @Override
     public List<SysPosition> getByExample() {
-        return null;
+        SysPositionExample sysPositionExample=new SysPositionExample();
+        return sysPositionMapper.selectByExample(sysPositionExample);
     }
 
     @Override

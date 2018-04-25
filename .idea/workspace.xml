@@ -1,8 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="466e0970-2d8c-49d7-b8fb-b209abef728a" name="Default" comment="员工前端控制器">
+    <list default="true" id="466e0970-2d8c-49d7-b8fb-b209abef728a" name="Default" comment="错误修改">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/systemcollection/src/main/webapp/WEB-INF/SysPosition/addPosition.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/systemcommon/src/main/java/com/atguigu/bean/ResultSelect.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/systemcommon/src/main/java/com/atguigu/bean/SysPositionView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/systemcollection/target/classes/com/atguigu/controller/EmployeeInfoController.class" afterPath="$PROJECT_DIR$/systemcollection/target/classes/com/atguigu/controller/EmployeeInfoController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/systemcollection/target/classes/com/atguigu/controller/SysOrganizationContorller.class" afterPath="$PROJECT_DIR$/systemcollection/target/classes/com/atguigu/controller/SysOrganizationContorller.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/systemcollection/target/classes/com/atguigu/controller/SysPositionContoller.class" afterPath="$PROJECT_DIR$/systemcollection/target/classes/com/atguigu/controller/SysPositionContoller.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/systemcollection/target/classes/com/atguigu/controller/VewContorller.class" afterPath="$PROJECT_DIR$/systemcollection/target/classes/com/atguigu/controller/VewContorller.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/systemcollection/target/classes/com/atguigu/service/impl/SysPositionServiceImpl.class" afterPath="$PROJECT_DIR$/systemcollection/target/classes/com/atguigu/service/impl/SysPositionServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/systemcollection/target/system-collection-1.0-SNAPSHOT/WEB-INF/classes/com/atguigu/controller/EmployeeInfoController.class" afterPath="$PROJECT_DIR$/systemcollection/target/system-collection-1.0-SNAPSHOT/WEB-INF/classes/com/atguigu/controller/EmployeeInfoController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/systemcollection/target/system-collection-1.0-SNAPSHOT/WEB-INF/classes/com/atguigu/controller/SysOrganizationContorller.class" afterPath="$PROJECT_DIR$/systemcollection/target/system-collection-1.0-SNAPSHOT/WEB-INF/classes/com/atguigu/controller/SysOrganizationContorller.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/systemcollection/target/system-collection-1.0-SNAPSHOT/WEB-INF/classes/com/atguigu/controller/SysPositionContoller.class" afterPath="$PROJECT_DIR$/systemcollection/target/system-collection-1.0-SNAPSHOT/WEB-INF/classes/com/atguigu/controller/SysPositionContoller.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/systemcollection/target/system-collection-1.0-SNAPSHOT/WEB-INF/classes/com/atguigu/controller/VewContorller.class" afterPath="$PROJECT_DIR$/systemcollection/target/system-collection-1.0-SNAPSHOT/WEB-INF/classes/com/atguigu/controller/VewContorller.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/systemcollection/target/system-collection-1.0-SNAPSHOT/WEB-INF/classes/com/atguigu/service/impl/SysPositionServiceImpl.class" afterPath="$PROJECT_DIR$/systemcollection/target/system-collection-1.0-SNAPSHOT/WEB-INF/classes/com/atguigu/service/impl/SysPositionServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/systemcollection/target/system-collection-1.0-SNAPSHOT/WEB-INF/lib/system-common-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/systemcollection/target/system-collection-1.0-SNAPSHOT/WEB-INF/lib/system-common-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/systemcommon/target/classes/com/atguigu/bean/SysPosition.class" afterPath="$PROJECT_DIR$/systemcommon/target/classes/com/atguigu/bean/SysPosition.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/systemcollection/src/main/java/com/atguigu/controller/EmployeeInfoController.java" afterPath="$PROJECT_DIR$/systemcollection/src/main/java/com/atguigu/controller/EmployeeInfoController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/systemcollection/src/main/java/com/atguigu/controller/SysOrganizationContorller.java" afterPath="$PROJECT_DIR$/systemcollection/src/main/java/com/atguigu/controller/SysOrganizationContorller.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/systemcollection/src/main/java/com/atguigu/controller/SysPositionContoller.java" afterPath="$PROJECT_DIR$/systemcollection/src/main/java/com/atguigu/controller/SysPositionContoller.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/systemcollection/src/main/java/com/atguigu/controller/VewContorller.java" afterPath="$PROJECT_DIR$/systemcollection/src/main/java/com/atguigu/controller/VewContorller.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/systemcollection/src/main/java/com/atguigu/service/impl/SysPositionServiceImpl.java" afterPath="$PROJECT_DIR$/systemcollection/src/main/java/com/atguigu/service/impl/SysPositionServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/systemcollection/src/main/webapp/WEB-INF/SysPosition/sysPosition.jsp" afterPath="$PROJECT_DIR$/systemcollection/src/main/webapp/WEB-INF/SysPosition/sysPosition.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/systemcollection/target/system-collection-1.0-SNAPSHOT/WEB-INF/SysPosition/sysPosition.jsp" afterPath="$PROJECT_DIR$/systemcollection/target/system-collection-1.0-SNAPSHOT/WEB-INF/SysPosition/sysPosition.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/systemcommon/src/main/java/com/atguigu/bean/SysPosition.java" afterPath="$PROJECT_DIR$/systemcommon/src/main/java/com/atguigu/bean/SysPosition.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,11 +50,34 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/systemcollection/src/main/webapp/WEB-INF/index.jsp">
+      <file leaf-file-name="sysPosition.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/systemcollection/src/main/webapp/WEB-INF/SysPosition/sysPosition.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="798">
-              <caret line="42" column="74" lean-forward="false" selection-start-line="42" selection-start-column="58" selection-end-line="42" selection-end-column="74" />
+            <state relative-caret-position="3059">
+              <caret line="161" column="0" lean-forward="false" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
+              <folding>
+                <marker date="1524662754648" expanded="true" signature="3410:3442" ph="..." />
+                <marker date="1524662754648" expanded="true" signature="3477:3527" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="addPosition.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/systemcollection/src/main/webapp/WEB-INF/SysPosition/addPosition.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="22" column="20" lean-forward="false" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SysPosition.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/systemcommon/src/main/java/com/atguigu/bean/SysPosition.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="13" column="27" lean-forward="false" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -40,8 +86,41 @@
       <file leaf-file-name="SysPositionContoller.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/systemcollection/src/main/java/com/atguigu/controller/SysPositionContoller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+            <state relative-caret-position="798">
+              <caret line="51" column="44" lean-forward="false" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResultSelect.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/systemcommon/src/main/java/com/atguigu/bean/ResultSelect.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="25" />
+              <folding>
+                <element signature="e#204#205#0" expanded="true" />
+                <element signature="e#229#230#0" expanded="true" />
+                <element signature="e#265#266#0" expanded="true" />
+                <element signature="e#293#294#0" expanded="true" />
+                <element signature="e#324#325#0" expanded="true" />
+                <element signature="e#351#352#0" expanded="true" />
+                <element signature="e#391#392#0" expanded="true" />
+                <element signature="e#423#424#0" expanded="true" />
+                <element signature="e#458#459#0" expanded="true" />
+                <element signature="e#489#490#0" expanded="true" />
+                <element signature="e#538#539#0" expanded="true" />
+                <element signature="e#578#579#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AJAXResult.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/systemcommon/src/main/java/com/atguigu/bean/AJAXResult.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -50,18 +129,8 @@
       <file leaf-file-name="VewContorller.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/systemcollection/src/main/java/com/atguigu/controller/VewContorller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="addOrg.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/systemcollection/src/main/webapp/WEB-INF/organizationlist/addOrg.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
-              <caret line="77" column="31" lean-forward="false" selection-start-line="77" selection-start-column="31" selection-end-line="77" selection-end-column="31" />
+            <state relative-caret-position="1311">
+              <caret line="79" column="9" lean-forward="false" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -70,8 +139,28 @@
       <file leaf-file-name="organizationlist.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/systemcollection/src/main/webapp/WEB-INF/organization/organizationlist.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7771">
-              <caret line="409" column="31" lean-forward="false" selection-start-line="409" selection-start-column="25" selection-end-line="409" selection-end-column="31" />
+            <state relative-caret-position="1824">
+              <caret line="96" column="8" lean-forward="false" selection-start-line="96" selection-start-column="8" selection-end-line="96" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SysOrganization.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/systemcommon/src/main/java/com/atguigu/bean/SysOrganization.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1577">
+              <caret line="116" column="50" lean-forward="false" selection-start-line="116" selection-start-column="7" selection-end-line="116" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SysPositionServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/systemcollection/src/main/java/com/atguigu/service/impl/SysPositionServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="30" column="71" lean-forward="false" selection-start-line="30" selection-start-column="71" selection-end-line="30" selection-end-column="71" />
               <folding />
             </state>
           </provider>
@@ -90,12 +179,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>checked</find>
-      <find>datagrid</find>
-      <find>seach</find>
-      <find>机构名称</find>
-      <find>beginEdit</find>
-      <find>Base_Column_List</find>
       <find>goto_SysPosition</find>
       <find>organization</find>
       <find>goto_sysPosition</find>
@@ -112,14 +195,20 @@
       <find>parentId</find>
       <find>right</find>
       <find>保存</find>
-      <find>删除</find>
       <find>onClickRow</find>
       <find>updateByPrimaryKeySelective</find>
       <find>deleteSysPositions</find>
       <find>取消</find>
       <find>selectListSysOrganization</find>
+      <find>删除</find>
+      <find>deletsysPosition</find>
+      <find>goto_addPosition</find>
       <find>增加</find>
       <find>addwin</find>
+      <find>job</find>
+      <find>ss</find>
+      <find>submitForm</find>
+      <find>ff</find>
     </findStrings>
     <replaceStrings>
       <replace>200</replace>
@@ -169,7 +258,6 @@
         <option value="$PROJECT_DIR$/systemcommon/src/main/java/com/atguigu/bean/Datas.java" />
         <option value="$PROJECT_DIR$/systemcommon/src/main/java/com/atguigu/bean/SysOrganizationExample.java" />
         <option value="$PROJECT_DIR$/systemcollection/src/main/java/com/atguigu/service/SysPositionService.java" />
-        <option value="$PROJECT_DIR$/systemcommon/src/main/java/com/atguigu/bean/SysPosition.java" />
         <option value="$PROJECT_DIR$/systemcollection/src/main/java/com/atguigu/service/EmployeeInfoService.java" />
         <option value="$PROJECT_DIR$/systemcollection/src/main/resouces/mapper/EmployeeInfoMapper.xml" />
         <option value="$PROJECT_DIR$/systemcollection/src/main/java/com/atguigu/mapper/EmployeeInfoMapper.java" />
@@ -180,19 +268,23 @@
         <option value="$PROJECT_DIR$/systemcommon/src/main/java/com/atguigu/bean/SysOrganization.java" />
         <option value="$PROJECT_DIR$/systemcollection/src/main/java/com/atguigu/mapper/SysPositionMapper.java" />
         <option value="$PROJECT_DIR$/systemcollection/src/main/resouces/mapper/SysPositionMapper.xml" />
-        <option value="$PROJECT_DIR$/systemcollection/src/main/java/com/atguigu/service/impl/SysPositionServiceImpl.java" />
-        <option value="$PROJECT_DIR$/systemcollection/src/main/java/com/atguigu/controller/SysPositionContoller.java" />
-        <option value="$PROJECT_DIR$/systemcollection/src/main/java/com/atguigu/controller/EmployeeInfoController.java" />
         <option value="$PROJECT_DIR$/systemcollection/src/main/webapp/WEB-INF/index.jsp" />
-        <option value="$PROJECT_DIR$/systemcollection/src/main/java/com/atguigu/controller/SysOrganizationContorller.java" />
         <option value="$PROJECT_DIR$/systemcollection/src/main/java/com/atguigu/service/SysOrganizationService.java" />
         <option value="$PROJECT_DIR$/systemcollection/src/main/java/com/atguigu/mapper/SysOrganizationMapper.java" />
         <option value="$PROJECT_DIR$/systemcollection/src/main/java/com/atguigu/service/impl/SysOrganizationServiceimpl.java" />
-        <option value="$PROJECT_DIR$/systemcollection/src/main/webapp/WEB-INF/SysPosition/sysPosition.jsp" />
-        <option value="$PROJECT_DIR$/systemcollection/src/main/webapp/WEB-INF/organization/organizationlist.jsp" />
-        <option value="$PROJECT_DIR$/systemcollection/src/main/java/com/atguigu/controller/VewContorller.java" />
         <option value="$PROJECT_DIR$/systemcollection/src/main/webapp/WEB-INF/organizationlist/organizationlist.jsp" />
         <option value="$PROJECT_DIR$/systemcollection/src/main/webapp/WEB-INF/organizationlist/addOrg.jsp" />
+        <option value="$PROJECT_DIR$/systemcollection/src/main/java/com/atguigu/service/impl/SysPositionServiceImpl.java" />
+        <option value="$PROJECT_DIR$/systemcollection/src/main/java/com/atguigu/controller/SysOrganizationContorller.java" />
+        <option value="$PROJECT_DIR$/systemcollection/src/main/java/com/atguigu/controller/EmployeeInfoController.java" />
+        <option value="$PROJECT_DIR$/systemcommon/src/main/java/com/atguigu/bean/SysPositionView.java" />
+        <option value="$PROJECT_DIR$/systemcommon/src/main/java/com/atguigu/bean/SysPosition.java" />
+        <option value="$PROJECT_DIR$/systemcollection/src/main/webapp/WEB-INF/organization/organizationlist.jsp" />
+        <option value="$PROJECT_DIR$/systemcollection/src/main/java/com/atguigu/controller/VewContorller.java" />
+        <option value="$PROJECT_DIR$/systemcollection/src/main/webapp/WEB-INF/SysPosition/sysPosition.jsp" />
+        <option value="$PROJECT_DIR$/systemcommon/src/main/java/com/atguigu/bean/ResultSelect.java" />
+        <option value="$PROJECT_DIR$/systemcollection/src/main/java/com/atguigu/controller/SysPositionContoller.java" />
+        <option value="$PROJECT_DIR$/systemcollection/src/main/webapp/WEB-INF/SysPosition/addPosition.jsp" />
       </list>
     </option>
   </component>
@@ -284,8 +376,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -309,16 +399,340 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
+              <option name="myItemId" value="systemcommon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="systemparent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="systemparent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="systemcommon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="atguigu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="systemparent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="systemparent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="systemcollection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="systemparent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="systemparent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="systemcollection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="systemparent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="systemparent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="systemcollection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SysPosition" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="systemparent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="systemparent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="systemcollection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="organizationlist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="systemparent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="systemparent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="systemcollection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="organization" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="systemparent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="systemparent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="systemcollection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="employeeInfo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="systemparent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="systemparent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="systemcollection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="systemparent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="systemparent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="systemcollection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="systemparent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="systemparent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="systemcollection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="atguigu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="systemparent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="systemparent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="systemcollection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="atguigu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -328,19 +742,19 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\systemparent\systemcollection\src\main\webapp\WEB-INF\employeeInfo" />
-      <recent name="F:\systemparent\systemcollection\src\main\resouces\mapper" />
-      <recent name="F:\systemparent\systemcommon\src\main\java\com\atguigu\bean" />
-      <recent name="F:\systemparent\systemcollection\src\main\webapp\WEB-INF\SysPosition" />
-      <recent name="F:\systemparent\systemcollection\src\main\webapp\css" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\systemparent\systemcollection\src\main\webapp\WEB-INF" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.atguigu.mapper" />
       <recent name="com.atguigu.utils" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\systemparent\systemcollection\src\main\webapp\WEB-INF" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\systemparent\systemcollection\src\main\webapp\WEB-INF\SysPosition" />
+      <recent name="F:\systemparent\systemcollection\src\main\webapp\WEB-INF\employeeInfo" />
+      <recent name="F:\systemparent\systemcollection\src\main\resouces\mapper" />
+      <recent name="F:\systemparent\systemcommon\src\main\java\com\atguigu\bean" />
+      <recent name="F:\systemparent\systemcollection\src\main\webapp\css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -881,7 +1295,8 @@
       <workItem from="1524616285955" duration="12330000" />
       <workItem from="1524634772468" duration="1612000" />
       <workItem from="1524638724069" duration="1970000" />
-      <workItem from="1524642405089" duration="73000" />
+      <workItem from="1524642405089" duration="22552000" />
+      <workItem from="1524669257501" duration="75000" />
     </task>
     <task id="LOCAL-00001" summary="项目的初始化">
       <created>1524275548566</created>
@@ -988,11 +1403,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524635669478</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="错误修改">
+      <created>1524642490250</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1524642490250</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156011000" />
+    <option name="totallyTimeSpent" value="178565000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1009,9 +1431,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41629463" sideWeight="0.4936034" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20870535" sideWeight="0.4936034" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4921875" sideWeight="0.4936034" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1020,7 +1441,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3794643" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.4978678" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.4978678" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25906184" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26172706" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1028,6 +1449,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4921875" sideWeight="0.4936034" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1079,56 +1501,24 @@
     <MESSAGE value="pojo" />
     <MESSAGE value="pojio" />
     <MESSAGE value="主工程初始化" />
-    <option name="LAST_COMMIT_MESSAGE" value="主工程初始化" />
+    <MESSAGE value="错误修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="错误修改" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/systemcollection/src/main/java/com/atguigu/controller/SysPositionContoller.java</url>
-          <line>58</line>
-          <properties />
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/systemcollection/src/main/java/com/atguigu/controller/SysPositionContoller.java</url>
-          <line>75</line>
-          <properties />
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="36" />
+      <option name="time" value="57" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
+        <watch expression="mappp" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/systemcollection/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="162" column="21" lean-forward="false" selection-start-line="162" selection-start-column="21" selection-end-line="162" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/systemcollection/src/main/webapp/easyui/easyui-lang-zh_CN.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/systemcollection/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="33" column="4" lean-forward="false" selection-start-line="30" selection-start-column="16" selection-end-line="33" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/systemcollection/src/main/webapp/WEB-INF/index.jsp" />
     <entry file="file://$PROJECT_DIR$/systemcollection/src/main/webapp/index1.jsp" />
     <entry file="file://$PROJECT_DIR$/systemcommon/src/main/java/com/atguigu/utils/FastJsonUtils.java">
@@ -1196,13 +1586,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/systemcommon/src/main/java/com/atguigu/bean/AJAXResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/systemcollection/src/main/resouces/dbConfig.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -1214,13 +1597,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.3.RELEASE/spring-web-4.3.3.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="137" column="0" lean-forward="false" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1295,35 +1671,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/systemcommon/src/main/java/com/atguigu/bean/SysPosition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/systemcollection/src/main/resouces/mapper/SysPositionMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5567">
           <caret line="293" column="32" lean-forward="false" selection-start-line="293" selection-start-column="14" selection-end-line="293" selection-end-column="32" />
-          <folding>
-            <marker date="1524638707681" expanded="true" signature="3853:3961" ph="select from sys_position" />
-            <marker date="1524638707681" expanded="true" signature="4046:4108" ph="delete from " />
-            <marker date="1524638707681" expanded="true" signature="4209:4233" ph="delete from " />
-            <marker date="1524638707681" expanded="true" signature="4410:4833" ph="insert into sys_position... " />
-            <marker date="1524638707681" expanded="true" signature="6526:6559" ph="select count... sys_position" />
-            <marker date="1524638707681" expanded="true" signature="7902:8392" ph="update sys_p... " />
-            <marker date="1524638707681" expanded="true" signature="8600:9436" ph="update sys_p... " />
-            <marker date="1524638707681" expanded="true" signature="9533:9963" ph="update sys_p... " />
-            <marker date="1524638707681" expanded="true" signature="10057:10465" ph="select from sys_position" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/systemcollection/src/main/java/com/atguigu/controller/EmployeeInfoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="102" column="23" lean-forward="true" selection-start-line="102" selection-start-column="23" selection-end-line="102" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -1331,13 +1682,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/systemcollection/src/main/java/com/atguigu/service/SysPositionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="17" column="33" lean-forward="false" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -1362,24 +1706,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/systemcommon/src/main/java/com/atguigu/bean/SysOrganization.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1178">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/systemcollection/src/main/resouces/mapper/SysOrganizationMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="74">
           <caret line="384" column="39" lean-forward="false" selection-start-line="384" selection-start-column="14" selection-end-line="384" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/systemcollection/src/main/java/com/atguigu/service/impl/SysPositionServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="41" column="33" lean-forward="true" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -1404,33 +1734,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/systemcollection/src/main/java/com/atguigu/controller/SysOrganizationContorller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="104" column="71" lean-forward="true" selection-start-line="104" selection-start-column="71" selection-end-line="104" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/systemcollection/src/main/webapp/WEB-INF/employeeInfo/employeeInfo.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="22" column="20" lean-forward="false" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/systemcollection/src/main/webapp/WEB-INF/SysPosition/sysPosition.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="175" column="29" lean-forward="true" selection-start-line="175" selection-start-column="29" selection-end-line="175" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/systemcollection/src/main/java/com/atguigu/controller/SysPositionContoller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -1443,27 +1750,143 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/systemcollection/src/main/java/com/atguigu/controller/VewContorller.java">
+    <entry file="file://$PROJECT_DIR$/systemcollection/src/main/webapp/WEB-INF/organizationlist/organizationlist.jsp" />
+    <entry file="file://$PROJECT_DIR$/systemcollection/src/main/java/com/atguigu/service/SysPositionService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        <state relative-caret-position="133">
+          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/systemcollection/src/main/java/com/atguigu/controller/EmployeeInfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-148">
+          <caret line="73" column="48" lean-forward="false" selection-start-line="73" selection-start-column="48" selection-end-line="73" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/systemcollection/src/main/webapp/WEB-INF/organizationlist/organizationlist.jsp" />
-    <entry file="file://$PROJECT_DIR$/systemcollection/src/main/webapp/WEB-INF/organization/organizationlist.jsp">
+    <entry file="file://$PROJECT_DIR$/systemcommon/src/main/java/com/atguigu/bean/SysPositionView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7771">
-          <caret line="409" column="31" lean-forward="false" selection-start-line="409" selection-start-column="25" selection-end-line="409" selection-end-column="31" />
+        <state relative-caret-position="152">
+          <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.3.RELEASE/spring-web-4.3.3.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="138" column="0" lean-forward="false" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/systemcollection/src/main/java/com/atguigu/controller/SysOrganizationContorller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-361">
+          <caret line="72" column="35" lean-forward="false" selection-start-line="72" selection-start-column="35" selection-end-line="72" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/systemcollection/src/main/java/com/atguigu/service/impl/SysPositionServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="30" column="71" lean-forward="false" selection-start-line="30" selection-start-column="71" selection-end-line="30" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/systemcommon/src/main/java/com/atguigu/bean/SysOrganization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1577">
+          <caret line="116" column="50" lean-forward="false" selection-start-line="116" selection-start-column="7" selection-end-line="116" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/systemcollection/src/main/webapp/WEB-INF/organizationlist/addOrg.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="77" column="31" lean-forward="false" selection-start-line="77" selection-start-column="31" selection-end-line="77" selection-end-column="31" />
+        <state relative-caret-position="105">
+          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/systemcommon/src/main/java/com/atguigu/bean/AJAXResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/systemcollection/src/main/java/com/atguigu/controller/VewContorller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1311">
+          <caret line="79" column="9" lean-forward="false" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/systemcollection/src/main/webapp/WEB-INF/organization/organizationlist.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1824">
+          <caret line="96" column="8" lean-forward="false" selection-start-line="96" selection-start-column="8" selection-end-line="96" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/systemcommon/src/main/java/com/atguigu/bean/ResultSelect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="25" />
+          <folding>
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#265#266#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#538#539#0" expanded="true" />
+            <element signature="e#578#579#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/systemcommon/src/main/java/com/atguigu/bean/SysPosition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="13" column="27" lean-forward="false" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/systemcollection/src/main/java/com/atguigu/controller/SysPositionContoller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="51" column="44" lean-forward="false" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/systemcollection/src/main/webapp/WEB-INF/SysPosition/sysPosition.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3059">
+          <caret line="161" column="0" lean-forward="false" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
+          <folding>
+            <marker date="1524662754648" expanded="true" signature="3410:3442" ph="..." />
+            <marker date="1524662754648" expanded="true" signature="3477:3527" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/systemcollection/src/main/webapp/WEB-INF/SysPosition/addPosition.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="22" column="20" lean-forward="false" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="20" />
           <folding />
         </state>
       </provider>

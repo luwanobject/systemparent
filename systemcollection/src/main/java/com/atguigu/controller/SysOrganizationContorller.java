@@ -12,10 +12,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletResponse;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * Created by luwan on 2018/4/21.
@@ -75,6 +72,7 @@ public class SysOrganizationContorller {
         logger.info("------------------organizationlist com in------------------------");
         logger.info(sysOrganization);
         try {
+            sysOrganization.setModifyTime(new Date());
             sysOrganizationService.updateByPrimaryKeySelective(sysOrganization);
             result.setSuccess(true);
             result.setMsg("修改成功");

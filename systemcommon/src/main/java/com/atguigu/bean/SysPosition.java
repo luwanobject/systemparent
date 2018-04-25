@@ -23,15 +23,7 @@ public class SysPosition {
 
     private Date modifyTime;
 
-    List<SysPosition> children=new ArrayList<>();
-
-    public List<SysPosition> getChildren() {
-        return children;
-    }
-
-    public void setChildren(List<SysPosition> children) {
-        this.children = children;
-    }
+    private Integer _parentId;
 
     public String getId() {
         return id;
@@ -53,7 +45,9 @@ public class SysPosition {
         return parentId;
     }
 
-    public void setParentId(String parentId) {
+    public void setParentId(String parentId)
+    {
+        this._parentId=Integer.parseInt(parentId);
         this.parentId = parentId == null ? null : parentId.trim();
     }
 
