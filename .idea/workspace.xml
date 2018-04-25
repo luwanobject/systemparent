@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+    <list default="true" id="466e0970-2d8c-49d7-b8fb-b209abef728a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     <list default="true" id="466e0970-2d8c-49d7-b8fb-b209abef728a" name="Default" comment="员工前端控制器">
       <change type="DELETED" beforePath="$PROJECT_DIR$/systemcollection/src/main/webapp/WEB-INF/organizationlist/organizationlist.jsp" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/systemcollection/target/classes/com/atguigu/mapper/SysOrganizationMapper.class" afterPath="$PROJECT_DIR$/systemcollection/target/classes/com/atguigu/mapper/SysOrganizationMapper.class" />
