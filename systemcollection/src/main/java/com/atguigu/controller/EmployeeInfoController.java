@@ -1,10 +1,9 @@
 package com.atguigu.controller;
 
-import com.atguigu.bean.AJAXResult;
-import com.atguigu.bean.Datas;
-import com.atguigu.bean.EmployeeInfo;
-import com.atguigu.bean.page;
+import com.atguigu.bean.*;
 import com.atguigu.service.EmployeeInfoService;
+import com.atguigu.service.SysOrganizationService;
+import com.atguigu.service.SysPositionService;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -23,6 +22,12 @@ public class EmployeeInfoController {
 
     @Autowired
     private EmployeeInfoService employeeInfoService;
+
+    @Autowired
+    private SysOrganizationService sysOrganizationService;
+
+    @Autowired
+    private SysPositionService sysPositionService;
 
     @RequestMapping("EmployeeInfo")
     @ResponseBody
@@ -47,8 +52,10 @@ public class EmployeeInfoController {
 
     @RequestMapping("insertemployeeInfo")
     @ResponseBody
-    public AJAXResult insertorganization(EmployeeInfo employeeInfo ){
+    public AJAXResult insertorganization(EmployeeInfoWithBLOBs employeeInfo ){
         AJAXResult result=new AJAXResult();
+        employeeInfo.setId(UUID.randomUUID().toString());
+        employeeInfo.setStatus(1);
         logger.info("------------------organizationlist com in------------------------");
         logger.info(employeeInfo);
         try {
@@ -66,13 +73,13 @@ public class EmployeeInfoController {
 
     @RequestMapping("updateemployeeInfo")
     @ResponseBody
-    public AJAXResult updateorganization(EmployeeInfo EmployeeInfo ){
+    public AJAXResult updateorganization(EmployeeInfoWithBLOBs employeeInfo ){
         AJAXResult result=new AJAXResult();
         logger.info("------------------organizationlist com in------------------------");
-        logger.info(EmployeeInfo);
+        logger.info(employeeInfo);
         try {
-            EmployeeInfo.setModifyTime(new Date());
-            employeeInfoService.updateByPrimaryKeySelective(EmployeeInfo);
+            employeeInfo.setModifyTime(new Date());
+            employeeInfoService.updateByPrimaryKeySelective(employeeInfo);
             result.setSuccess(true);
             result.setMsg("修改成功");
         }catch (Exception e){
@@ -82,6 +89,59 @@ public class EmployeeInfoController {
         }
 
         return result;
+    }
+    @RequestMapping("emplyejoblist")
+    @ResponseBody
+    public Object joblist(HttpServletResponse response){
+        List<SysOrganization> list = sysOrganizationService.getByExample();
+        List<ResultSelect> resultSelects=new ArrayList<>();
+
+        HashSet<String>  hs=new HashSet();
+        for (SysOrganization sysOrganization:list){
+            hs.add(sysOrganization.getParentId());
+        }
+        int i=0;
+        for (SysOrganization sysOrganization:list){
+           if( hs.contains(sysOrganization.getId())){
+
+               ResultSelect rets=new ResultSelect();
+               if(i==0){
+                   rets.setSelected(true);
+                   i=1;
+               }
+               rets.setId(sysOrganization.getId());
+               rets.setText(sysOrganization.getName());
+
+               resultSelects.add(rets);
+           }
+
+        }
+
+        return resultSelects;
+    }
+
+    @RequestMapping("stationlist")
+    @ResponseBody
+    public Object stationlist(HttpServletResponse response){
+        List<SysPosition> list = sysPositionService.getByExample();
+        List<ResultSelect> resultSelects=new ArrayList<>();
+
+        HashSet<String>  hs=new HashSet();
+
+        int i=0;
+        for (SysPosition sysPosition:list){
+                ResultSelect rets=new ResultSelect();
+                if(i==0){
+                    rets.setSelected(true);
+                    i=1;
+                }
+                rets.setId(sysPosition.getId());
+                rets.setText(sysPosition.getName());
+
+                resultSelects.add(rets);
+        }
+
+        return resultSelects;
     }
 
 

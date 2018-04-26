@@ -1,6 +1,7 @@
 package com.atguigu.service;
 
 import com.atguigu.bean.EmployeeInfo;
+import com.atguigu.bean.EmployeeInfoWithBLOBs;
 
 import java.util.List;
 import java.util.Map;
@@ -15,9 +16,9 @@ public interface EmployeeInfoService {
 
     Long  getEmployeeInfoCount(Map<Object,Object> mp);
 
-    void  insertEmployeeInfo(EmployeeInfo record);
+    void  insertEmployeeInfo(EmployeeInfoWithBLOBs record);
 
-    void updateByPrimaryKeySelective(EmployeeInfo record);
+    void updateByPrimaryKeySelective(EmployeeInfoWithBLOBs record);
 
     int deleteEmployeeInfos(Map<Object,Object> mp);
 }

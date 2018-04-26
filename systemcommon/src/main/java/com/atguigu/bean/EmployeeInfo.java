@@ -1,5 +1,7 @@
 package com.atguigu.bean;
 
+import org.springframework.format.annotation.DateTimeFormat;
+
 import java.util.Date;
 
 public class EmployeeInfo {
@@ -38,7 +40,7 @@ public class EmployeeInfo {
     private String city;
 
     private String email;
-
+    @DateTimeFormat(pattern="yyyy-MM-dd")
     private Date joinTime;
 
     private String positionId;

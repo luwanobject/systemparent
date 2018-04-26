@@ -2,6 +2,7 @@ package com.atguigu.service.impl;
 
 import com.atguigu.bean.EmployeeInfo;
 import com.atguigu.bean.EmployeeInfoExample;
+import com.atguigu.bean.EmployeeInfoWithBLOBs;
 import com.atguigu.bean.SysOrganizationExample;
 import com.atguigu.mapper.EmployeeInfoMapper;
 import com.atguigu.service.EmployeeInfoService;
@@ -45,13 +46,14 @@ public class EmployeeInfoServiceImpl implements EmployeeInfoService{
     }
 
     @Override
-    public void insertEmployeeInfo(EmployeeInfo record) {
+    public void insertEmployeeInfo(EmployeeInfoWithBLOBs record) {
+        employeeInfoMapper.insertSelective(record);
 
     }
 
     @Override
-    public void updateByPrimaryKeySelective(EmployeeInfo record) {
-
+    public void updateByPrimaryKeySelective(EmployeeInfoWithBLOBs record) {
+        employeeInfoMapper.updateByPrimaryKeySelective(record);
     }
 
     @Override

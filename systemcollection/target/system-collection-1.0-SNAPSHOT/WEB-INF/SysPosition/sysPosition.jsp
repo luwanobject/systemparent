@@ -157,7 +157,6 @@
                 text:'增加',
                 iconCls:'icon-add',
                 handler:function () {
-                    alert("11111111111111");
                     if(onClickRow==undefined){
 
                         $('#addwin').window({
@@ -365,7 +364,9 @@
 <div  class="easyui-tabs" fit="true" border="false" >
     <div title="职位管理"  class="easyui-layout"  border="false" closable="true" >
         <div region="north" border="false">
+            <form id="ff"  method="post" fit="true">
 
+            </form>
         </div>
         <div region="center"  border="false" style="height:500px">
             <table id="tr">

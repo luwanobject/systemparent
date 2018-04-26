@@ -20,7 +20,7 @@
 <body>
 <div style="margin:20px 0;"></div>
 
-        <form id="ff" action="insertsysPosition.do" method="post" fit="true">
+        <form id="dd" action="insertsysPosition.do" method="post" fit="true">
             <table cellpadding="2" fit="true" align="center" style="margin-top: -50px">
                 <tr>
                     <td>上级职位</td></br>
@@ -70,7 +70,23 @@
 
 
     function submitForm(){
-        $('#ff').form('submit');
+        $('#ff').form('submit', {
+                url:'',
+                success:function(data){
+                    if(data.success){
+                        $.messager.show({
+                            msg:data.msg,
+                            tile:'成功'
+                        });
+                        $('#addwin').window('close');
+                    }else{
+
+                        $.messager.alert('错误'.data.msg,'error')
+                    }
+            }
+    });
+
+
     }
     function clearForm(){
         $('#ff').form('clear');

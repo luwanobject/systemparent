@@ -18,16 +18,26 @@
                     checkbox:true
                 },
                 {
-                    field:'name',
+                    field:'status',
                     title:'员工状态',
                     width:100,
                     editor:{
                         type:'validatebox',
                         options:{required:true}
+                    },
+                    formatter: function(value,row,index){
+
+                       if(row.status==1){
+
+                           return "<a href='javascript:;' onclick=delHsCode(2,"+row.id+")  style='cursor: pointer'>启用</a>";
+                       }else{
+                           return "<a href='javascript:;' onclick=delHsCode(1,"+row.id+")  style='cursor: pointer'>停用</a>";
+                       }
                     }
+
                 },
                 {
-                    field:'login_name',
+                    field:'loginName',
                     title:'员工账号',
                     width:100,
                     editor:{
@@ -123,12 +133,11 @@
                 iconCls:'icon-add',
                 handler:function () {
                     if(onClickRow==undefined){
-                        alert(111111111111)
                         $('#addwin').window({
-                            width:600,
+                            width:900,
                             height:400,
                             modal:true,
-                            href:'goto_addOrg.do'
+                            href:'go_employeeadd.do'
                         });
 
 
@@ -264,18 +273,12 @@
 
 
             },
-            onDblClickRow:function(rowIndex, rowData){
-
-                    if(objaddinde!=undefined){
-                        obdatagrid.treegrid('endEdit',objaddinde);
-                    }
-                    if(objaddinde==undefined){
-                        obdatagrid.treegrid('beginEdit',rowIndex.id);
-                        objaddinde=rowIndex.id;
-                    }
-                },
             onClickRow:function (row) {
                 onClickRow=row;
+                objaddinde=row.id;
+
+
+
             }
 
 
@@ -291,33 +294,56 @@
 
     }
 
+    function submitForm(){
+        $('#organizationserForm').form('submit');
+    }
+    function clearForm(){
+        $('#organizationserForm').form('clear');
+    }
+    function delHsCode(value,id) {
+
+        jsonCodeData={
+            status:value,
+            id:id
+        };
+
+        $.ajax({
+            type: "POST",
+            url: "updateemployeeInfo.do",
+            data: jsonCodeData,
+            success: function(data){
+               if(data.success){
+                   var index = $('.tabs-selected').index();
+
+                   obdatagrid.treegrid('reload',index);
+
+
+               }
+            }
+        });
+    }
+
 </script>
 <div  class="easyui-tabs" fit="true" border="false" >
-    <div title="职位管理"  class="easyui-layout"  border="false" closable="true" >
-        <div region="north" border="false" title="过滤" style="height:120px;overflow: hidden;">
-            <form id="organizationserForm">
-                <table class="tableForm datagrid-toolbar" style="width: 100%;height: 100%">
-                    <tr>
-                        <th>名称</th>
-                        <td><input name="name" style="width: 230px;"></td>
-                    </tr>
-                    <tr>
-                        <th>创建时间</th>
-                        <td><input name="starttime" class="easyui-datetimebox" editable="false" style="width: 115px">
-                        <input name="endtime" class="easyui-datetimebox" editable="false" style="width: 115px">
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>最后修改时间</th>
-                        <td><input name="starttime" class="easyui-datetimebox" editable="false" style="width: 115px">
-                            <input name="endtime" class="easyui-datetimebox" editable="false" style="width: 115px">
-                            <a href="javacript:void(0)" class="easyui-linkbutton" onclick="seach();">查询</a>
-                            <a href="javacript:void(0)" class="easyui-linkbutton" onclick="">清空</a>
-                        </td>
+    <div title="员工管理"  class="easyui-layout"  border="false" closable="true" >
+        <div region="north" border="false" title="过滤" style="height:80px;overflow: hidden;">
 
-                    </tr>
-                </table>
-            </form>
+               <div id="" style="margin-left: 80px; margin-top: 18px;" >
+                   <form id="organizationserForm" style="float:left;">
+                       <label>员工状态:</label>
+                       <input  type="text" name="name"  />
+                       <label>机构:</label>
+                       <input  type="text" name="name"/>
+                       <label>账号:</label>
+                       <input class="easyui-validatebox" type="text" name="name"  />
+                       <label>姓名:</label>
+                       <input class="easyui-validatebox" type="text" name="name"  />
+
+                   </form>
+                   <a href="javascript:void(0)" class="easyui-linkbutton" onclick="submitForm()" >查询</a>
+                   <a href="javascript:void(0)" class="easyui-linkbutton" onclick="clearForm()"  style="float: left">重置查询</a>
+
+               </div>
         </div>
         <div region="center"  border="false" style="height:500px">
             <table id="tr">

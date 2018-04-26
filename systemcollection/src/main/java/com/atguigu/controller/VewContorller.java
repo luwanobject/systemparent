@@ -62,29 +62,12 @@ public class VewContorller {
 
     @RequestMapping("goto_addPosition")
     public String goto_addPosition(ModelMap map) {
-       /* List<SysPosition> list = sysPositionService.getByExample();
-        Map<Object,Object> typemap=new HashMap();
-        TreeMap<String, Object> mappp = new TreeMap<String, Object>(new Comparator<String>() {
-            @Override
-            public int compare(String o1, String o2) {
-
-                return o1.compareTo(o2);
-            }
-        });
-        for (SysPosition sysPosition:list){
-            mappp.put(sysPosition.getParentId(),sysPosition);
-            if(typemap.get(sysPosition.getType())==null){
-                typemap.put(sysPosition.getType(),sysPosition.getName());
-            }
-
-        }
-
-        mappp.remove(mappp.lastKey());
-        map.put("typemap",typemap);
-        map.put("sysPositions",list);
-        map.put("sysmp",mappp);
-
-        logger.info("goto_addPosition com in");*/
         return "SysPosition/addPosition";
+    }
+
+    @RequestMapping("go_employeeadd")
+    public String go_employeeadd(){
+        logger.info("goto_employeeInfo com in");
+        return "employeeInfo/employeeAdd";
     }
 }

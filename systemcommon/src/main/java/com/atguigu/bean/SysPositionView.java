@@ -8,13 +8,7 @@ import java.util.List;
  */
 public class SysPositionView extends SysPosition {
 
-   private List<String> parentPosition=new ArrayList<>();
+   private Boolean isparent;
 
-    public List<String> getParentPosition() {
-        return parentPosition;
-    }
 
-    public void setParentPosition(List<String> parentPosition) {
-        this.parentPosition = parentPosition;
-    }
 }

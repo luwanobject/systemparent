@@ -25,6 +25,24 @@ public class SysPosition {
 
     private Integer _parentId;
 
+    private Boolean isparent;
+
+    public Integer get_parentId() {
+        return _parentId;
+    }
+
+    public void set_parentId(Integer _parentId) {
+        this._parentId = _parentId;
+    }
+
+    public Boolean getIsparent() {
+        return isparent;
+    }
+
+    public void setIsparent(Boolean isparent) {
+        this.isparent = isparent;
+    }
+
     public String getId() {
         return id;
     }

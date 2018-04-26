@@ -15,17 +15,14 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <script type="text/javascript">
        function addorganizationg(url,name){
-           console.info(url);
           $('#pp').panel('open').panel('refresh',url);
 
        }
        function goto_sysPosition(url){
-           console.info(url);
            $('#pp').panel('open').panel('refresh',url);
 
        }
        function goto_employeeInfo(url){
-           console.info(url);
            $('#pp').panel('open').panel('refresh',url);
 
        }
